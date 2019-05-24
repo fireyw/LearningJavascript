@@ -118,4 +118,65 @@
     let o ={a:1};
     change(o);
     console.log(o); //{a:999}
-                  
+    
+##6.함수    
+
+* 호출과 참조
+    * 자바스크립트도 객체로 넘기거나 할당할 수 있다
+    * 식별자 뒤에 괄호()는 실행, 괄호가 없으면 참조로 인식.
+        ~~~  
+      getGreeting(); //Hello World  
+      getGreeting    //function getGreeting();
+      
+      function getGreeting(){  
+         return "Hello World";
+      }
+      
+      const o ={};
+      o.f = getGreeting;
+      console.log(o.f()); //Hello World 출력
+      ~~~
+      
+     * 함수 매개변수는 변수자체가 아니라 그 값만 전달받는다  
+       즉 함수 안과 바깥의 변수는 영향이 없다
+       
+     * 하지만 함수 안에서 객체 자체를 변경하면 함수바깥도 바뀐다
+     
+     * 자바스크립트는 자바와 다르게 f(x), f(x,y) 는 다 같은 함수를 호출한다
+     
+     * 매개 변수 해체는 가능하지만 객체이름과 변수이름 같아야한다
+     ~~~
+     //매개변수이름은 객체와 같아야함
+     function getSentence({subject, verb, object}){
+         return `${subject} ${verb} ${object}`;
+     }
+     const o ={         
+         subject: "i",  
+         verb: "love",
+         object: "you"
+     };
+     
+     console.log(getSentence(o));
+     ~~~
+* this 키워드
+    * 일반적으로 this는 호출한 메서드를 소유하게 된다  
+    (ex. a.f()) ->여기서 this a이다  
+    즉 함수를 어떻게 선언했냐가 아니라 어떻게 호출했냐다
+    ~~~
+    const o2= {
+        name: 'Wallace2',
+        speak(){return `My name is ${this.name}`;},
+    }
+    
+    
+    console.log(o2.speak());
+    
+    const speak = o2.speak;
+    speak===o2.speak;
+    console.log(speak()); //this.name에 undefined 호출됨
+    ~~~    
+    
+    * 메서드 : o2.speak()처럼 객체 인스턴스에서 호출한 의도로 만든 함수
+      함수  : this를 사용하지 않으면 어디서 선언했던 관계없이 함수 
+    
+                      
