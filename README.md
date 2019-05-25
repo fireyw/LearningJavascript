@@ -179,4 +179,62 @@
     * 메서드 : o2.speak()처럼 객체 인스턴스에서 호출한 의도로 만든 함수
       함수  : this를 사용하지 않으면 어디서 선언했던 관계없이 함수 
     
-                      
+* 화살표 표기법
+    * function 단어와 중괄호 숫자를 줄이려고 고안됨 문법
+        * function은 생략가능
+        * 함수의 매개변수가 하나라면 괄호 ( () ) 생략가능
+        * 함수바디가 표현식 하나라면 중괄호와 return 문 생략 가능
+        ~~~
+        const f1= function(){return "hello!";}
+        const f1= ()=>"hello!";
+        const f2= function(name){return 'Hello ${name}!`;}
+        const f2= name=>`Hello ${name}!`;
+        const f3= function(a,b){return a+b;}
+        const f3= (a,b)=>a+b;
+        ~~~
+    * 화살표 함수는 일반함수와 중요한 차이가 있음
+        * this가 다른 변수와 마찬가지로 정적으로 묶인다.
+                              
+ * call과 apply, bind
+    * 함수를 어디서 어떻게 호출했느냐에에 관계없이 this 값을 지정할 수 있다
+    * call 함수 첫번째 매개변수는 this, 그 뒤매개변수가 있으면 호출되는 함수로이동
+    ~~~
+    const bruce={name: "Bruece"};
+    const madeline={name: "Madeline"};
+    
+    function greet(){
+        return `Hello I'm ${this.name}`;
+    }
+    
+    function update(birthYear, occupation){
+        this.birthYear=birthYear;
+        this.occupation=occupation;
+    }
+    
+    update.call(bruce, 1949, 'singer');
+    console.log(bruce); // { name: 'Bruece', birthYear: 1949, occupation: 'singer' }
+    
+    update.call(madeline, 1942, 'actrees')
+    console.log(madeline); //{ name: 'Madeline', birthYear: 1942, occupation: 'actrees' }
+    ~~~
+    
+    * apply는 call과 같이 매개변수는 직접 받지만, apply는 매개변수를 배열로 받는다.
+    ~~~
+    update.apply(bruce, [1955, 'actor']); 
+    console.log(bruce);  //{ name: 'Bruece', birthYear: 1955, occupation: 'actor' }
+    
+    const arr=[2,3,-5,15,7];
+    //null을 넘긴 이유는 math함수가 this상관없이 동작
+    console.log(Math.min.apply(null, arr));  // Math.min(...arr)-5
+    console.log(Math.max.apply(null, arr));  // Math.max(...arr)15    
+    
+    ~~~
+    * bind를 사용하면 함수의 this 값을 영구히 바꿀 수 있음
+    ~~~
+    const updateBruce= update.bind(bruce);
+    updateBruce(1904, "actor");
+    console.log(bruce);  //{ name: 'Bruece', birthYear: 1904, occupation: 'actor' }
+    updateBruce.call(madeline, 1111, 'template'); //위에서 bind를 bruce로 해서 this 인자로 madeline을 넘겨도 bruce만 변경
+    console.log(bruce);  //{ name: 'Bruece', birthYear: 1904, occupation: 'actor' }
+    console.log(madeline); //{ name: 'Madeline' }
+    ~~~
