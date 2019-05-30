@@ -1,4 +1,5 @@
-const arr=[{id:5, name:"Judith"}, {id:7, name:"Francis"}];
+const arr=[1, null, "hello", "world", true, undefined]
 
-console.log(arr.findIndex(o=>o.id===5));
-console.log(arr.findIndex(function(o){return o.id===5}));
+delete arr[3];
+console.log(arr.join());  //1,,hello,,true,
+console.log(arr.join(''));//1hellotrue
