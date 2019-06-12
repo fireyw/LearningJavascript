@@ -100,9 +100,3 @@
     * 클래스는 함수이다
         typeof car //function
         
-            
-                            
-    
-    
-    
->>>>>>> 6e73658a26ec3d11bd59a6b138495cccba0b1c00
