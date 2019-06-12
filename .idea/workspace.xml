@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06d81d81-b1d2-4770-bda1-e4672c488e7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/12/12_Summary.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12/12_chapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9/9_Summary.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9/chapter9.js" afterDir="false" />
-    </list>
+    <list default="true" id="06d81d81-b1d2-4770-bda1-e4672c488e7c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/9/9_Summary.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="32">
-                <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+              <first_editor relative-caret-position="1728">
+                <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
               </first_editor>
               <second_editor />
             </state>
@@ -44,8 +39,8 @@
         <entry file="file://$PROJECT_DIR$/12/12_Summary.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="451">
-                <caret line="91" column="12" lean-forward="true" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
+              <first_editor relative-caret-position="416">
+                <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
               </first_editor>
               <second_editor />
             </state>
@@ -111,6 +106,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -174,16 +170,15 @@
       <workItem from="1559555674627" duration="308000" />
       <workItem from="1559556020658" duration="23000" />
       <workItem from="1560125669734" duration="21000" />
-      <workItem from="1560336639697" duration="1638000" />
+      <workItem from="1560336639697" duration="1931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3081000" />
+    <option name="totallyTimeSpent" value="3374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="-8" width="1858" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17130144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -195,7 +190,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -203,7 +198,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32883817" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3281412" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -240,8 +235,8 @@
     <entry file="file://$PROJECT_DIR$/9/9_Summary.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="32">
-            <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <first_editor relative-caret-position="1728">
+            <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
           </first_editor>
           <second_editor />
         </state>
@@ -257,8 +252,8 @@
     <entry file="file://$PROJECT_DIR$/12/12_Summary.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="451">
-            <caret line="91" column="12" lean-forward="true" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
+          <first_editor relative-caret-position="416">
+            <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           </first_editor>
           <second_editor />
         </state>
