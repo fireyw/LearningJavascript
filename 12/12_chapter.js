@@ -1,21 +1,14 @@
-class Fibo{
-    [Symbol.iterator](){
-        let a=0, b=1;
-        return{
-            next(){
-                let rVal={value:b, done:false};
-                b+=a;
-                a= rVal.value;
-                return rVal;
-            }
-        }
-    }
+function*abc(){
+    yield 'a';
+    yield 'b';
+    return 'c';
 }
-const fib= new Fibo();
-let i=0;
-for(let n of fib){
-    console.log(n);
-    if(++i>9){
-        break;
-    }
+
+const it=abc();
+console.log(it.next());  //{ value: 'a', done: false }
+console.log(it.next());  //{ value: 'b', done: false }
+console.log(it.next());  //{ value: 'c', done: true }
+
+for(let l of abc()){
+    console.log(l);
 }
