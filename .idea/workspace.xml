@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06d81d81-b1d2-4770-bda1-e4672c488e7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/WEB2-Javascript/HtmlJs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB2-Javascript/Htmljs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB2-Javascript/WEB-2Javascript.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14/14_Summary.md" beforeDir="false" afterPath="$PROJECT_DIR$/14/14_Summary.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14/14_chapter.js" beforeDir="false" afterPath="$PROJECT_DIR$/14/14_chapter.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,12 +19,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1/html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1/js/main.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/14/14_Summary.md">
+        <entry file="file://$PROJECT_DIR$/WEB2-Javascript/HtmlJs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEB2-Javascript/WEB-2Javascript.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="272">
-                <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+              <first_editor relative-caret-position="16">
+                <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -31,12 +55,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/14/14_chapter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/WEB2-Javascript/Htmljs.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -63,6 +83,8 @@
         <option value="$PROJECT_DIR$/13/13_Summary.md" />
         <option value="$PROJECT_DIR$/14/14_Summary.md" />
         <option value="$PROJECT_DIR$/14/14_chapter.js" />
+        <option value="$PROJECT_DIR$/WEB2-Javascript/WEB-2Javascript.md" />
+        <option value="$PROJECT_DIR$/WEB2-Javascript/HtmlJs.html" />
       </list>
     </option>
   </component>
@@ -72,7 +94,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="481" />
     <option name="y" value="90" />
     <option name="width" value="968" />
@@ -96,6 +118,11 @@
               <item name="LearningJavascript" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearningJavascript" type="462c0819:PsiDirectoryNode" />
               <item name="14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningJavascript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningJavascript" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB2-Javascript" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -138,8 +165,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.14_chapter.js">
+  <component name="RunManager" selected="JavaScript Debug.HtmlJs.html">
+    <configuration name="HtmlJs.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/LearningJavascript/WEB2-Javascript/HtmlJs.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="Unnamed" type="JavascriptDebugType" nameIsGenerated="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/LearningJavascript/1/html/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="12_chapter.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="12_chapter.js" working-dir="$PROJECT_DIR$/12">
@@ -151,15 +184,21 @@
     <configuration name="14_chapter.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="14_chapter.js" working-dir="$PROJECT_DIR$/14">
       <method v="2" />
     </configuration>
-    <configuration name="chapter9.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="chapter9.js" working-dir="$PROJECT_DIR$/9">
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Unnamed" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.HtmlJs.html" />
+      <item itemvalue="Node.js.12_chapter.js" />
+      <item itemvalue="Node.js.13_chapter.js" />
+      <item itemvalue="Node.js.14_chapter.js" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.HtmlJs.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.14_chapter.js" />
         <item itemvalue="Node.js.13_chapter.js" />
         <item itemvalue="Node.js.12_chapter.js" />
-        <item itemvalue="Node.js.chapter9.js" />
       </list>
     </recent_temporary>
   </component>
@@ -182,18 +221,18 @@
       <workItem from="1560501034924" duration="3745000" />
       <workItem from="1560648911255" duration="11998000" />
       <workItem from="1561977530958" duration="1048000" />
-      <workItem from="1564720131767" duration="1686000" />
+      <workItem from="1564720131767" duration="2514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23931000" />
+    <option name="totallyTimeSpent" value="24759000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="7" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1802646" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1802646" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -210,7 +249,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3281412" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3281412" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -299,6 +338,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1/js/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB2-Javascript/Htmljs.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/14/14_Summary.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -306,6 +351,30 @@
             <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB2-Javascript/WEB-2Javascript.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="16">
+            <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB2-Javascript/HtmlJs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
         </state>
       </provider>
     </entry>
